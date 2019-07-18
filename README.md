@@ -5,6 +5,10 @@ implementation.
 
 This hook is super simple to use, if you know how to `useCallback`, then you know how to `useResultInSuspense`.
 
+Inspired by [fetch-suspense](https://github.com/CharlesStover/fetch-suspense), but more general.
+
+> Note: using `WeakMap` under the hood, to prevent memory leak.
+
 ## Install
 
 ```
