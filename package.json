@@ -1,0 +1,50 @@
+{
+  "name": "react-use-result-in-suspense",
+  "version": "0.0.1",
+  "description": "A React hook compatible with React 16.6's Suspense component.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.4",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/preset-env": "7.5.4",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.3.3",
+    "@types/jest": "24.0.15",
+    "@types/react": "16.8.23",
+    "babel-core": "6.26.3",
+    "babel-loader": "8.0.6",
+    "babel-plugin-dynamic-import-node": "2.3.0",
+    "fork-ts-checker-webpack-plugin": "1.4.3",
+    "jest": "24.8.0",
+    "prettier": "1.17.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-hooks-testing-library": "0.4.1",
+    "ts-loader": "6.0.4",
+    "ts-node": "8.3.0",
+    "tslint": "5.18.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "tslint-react": "4.0.0",
+    "typescript": "3.5.3"
+  },
+  "author": "iammapping <meibing_240@126.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iammapping/react-use-result-in-suspense"
+  },
+  "bugs": {
+    "url": "https://github.com/iammapping/react-use-result-in-suspense"
+  },
+  "homepage": "https://github.com/iammapping/react-use-result-in-suspense#readme",
+  "license": "MIT"
+}
